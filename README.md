@@ -1,6 +1,6 @@
 IEEE-CSU-Embedded-C
 ===================
-+#While Loop
+++#While Loop
 
  #include "stdafx.h"
  #include <stdio.h>
