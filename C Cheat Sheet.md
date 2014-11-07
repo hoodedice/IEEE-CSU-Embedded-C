@@ -24,7 +24,6 @@ IEEE-CSU-Embedded-C
 }
 
 #Do While Loop
-int main(void)
 {
 	int x = 1;
 	int i=0;
