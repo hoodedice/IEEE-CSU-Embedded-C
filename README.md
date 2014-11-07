@@ -1,9 +1,9 @@
 IEEE-CSU-Embedded-C
 ===================
-+# While Loop
++#While Loop
 
-#include "stdafx.h"
-#include <stdio.h>
+ #include "stdafx.h"
+ #include <stdio.h>
 
 int main(void)
 {
@@ -23,3 +23,6 @@ int main(void)
 
 	return 0;
 }
+
+
+
