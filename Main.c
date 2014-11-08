@@ -60,7 +60,17 @@ void main(){
  * Make sure to set up the Set as 0 pin are also outputs
  */
 void Init_Microcontroller() {
-    
+   // Input pins
+    TRISB4 = 1; // Right Sensor
+    TRISB2 = 1; // Left Sensor
+    TRISB3 = 1; // Front Sensor
+
+    //Output pins
+    TRISD0 = 0; // RD0, pin 38
+    TRISD2 = 0; // RD2, pin 40
+
+    TRISD1 = 0; // Right Motor
+    TRISD2 = 0; // Left Motor
 }
 
 
@@ -135,7 +145,9 @@ int Check_Front_Sensor(void){
  * that represents the status of the motor
  */
 int Check_Right_Sensor(void){
-
+    int in;
+    in = RB4;
+    return in;
 }
 
 /*
@@ -148,5 +160,7 @@ int Check_Right_Sensor(void){
  * that represents the status of the motor
  */
 int Check_Left_Sensor(void){
-
+    int in;
+    in = RB2;
+    return in;
 }
